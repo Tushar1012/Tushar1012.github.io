@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tushar Solanki — Full Stack Developer</title>
+  <meta name="description"
+    content="Full Stack Software Engineer with 4 years of experience building enterprise web applications using Node.js, Express.js, React.js, TypeScript, and MySQL. Open to Remote, Hybrid, or Relocation worldwide." />
+  <meta name="keywords"
+    content="Tushar Solanki, Full Stack Developer, React, Node.js, TypeScript, MySQL, Software Engineer, Remote, Hire" />
+  <meta name="author" content="Tushar Solanki" />
+  <meta name="theme-color" content="#ff6b00" />
+
+  <!-- Open Graph for LinkedIn Preview -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://Tushar1012.github.io/" />
+  <meta property="og:title" content="Tushar Solanki — Full Stack Developer" />
+  <meta property="og:description"
+    content="Full Stack Software Engineer with 4 years of experience. Specializing in Node.js, React.js, TypeScript, and MySQL." />
+  <meta property="og:image" content="ts_image.jpg" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Tushar Solanki — Full Stack Developer" />
+  <meta name="twitter:description" content="Full Stack Software Engineer with 4 years of experience." />
+
+  <!-- Favicon -->
+  <link rel="icon"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Scroll Progress Bar -->
+  <div id="scroll-progress"></div>
+
+  <!-- Page Loader -->
+  <div id="page-loader" role="status" aria-label="Loading">
+    <div class="loader-ring"></div>
+  </div>
+
+  <!-- ============ NAVBAR ============ -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo" id="nav-logo">TS.</a>
+      <ul class="nav-links" role="list">
+        <li><a href="#about" id="nav-about">About</a></li>
+        <li><a href="#skills" id="nav-skills">Skills</a></li>
+        <li><a href="#experience" id="nav-experience">Experience</a></li>
+        <li><a href="#projects" id="nav-projects">Projects</a></li>
+        <li><a href="#help" id="nav-help">Hire Me</a></li>
+        <li><a href="#contact" id="nav-contact">Contact</a></li>
+      </ul>
+      <div class="nav-actions">
+        <button id="theme-toggle" aria-label="Toggle dark/light mode" title="Toggle Theme">🌙</button>
+        <a href="Tushar_Solanki_Full_Stack_Developer_Resume.pdf" download="Tushar_Solanki_Full_Stack_Developer_Resume.pdf" target="_blank" rel="noopener noreferrer" class="nav-cta" id="nav-resume">Download CV</a>
+      </div>
+      <button id="hamburger" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span class="ham-line"></span>
+        <span class="ham-line"></span>
+        <span class="ham-line"></span>
+      </button>
+    </div>
+  </nav>
+
+
+  <nav id="mobile-nav" aria-label="Mobile navigation">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#help">Hire Me</a>
+    <a href="#contact">Contact</a>
+    <a href="Tushar_Solanki_Full_Stack_Developer_Resume.pdf" download="Tushar_Solanki_Full_Stack_Developer_Resume.pdf" target="_blank" rel="noopener noreferrer" style="color: var(--accent)">⬇ Download CV</a>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <section id="hero" aria-label="Hero section">
+    <div class="hero-bg-glow"></div>
+    <div class="hero-bg-glow-2"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="hero-status fade-in">
+            <span class="status-dot"></span>
+            Open to new opportunities · Remote / Open to Relocate
+          </div>
+          <h1 class="hero-name fade-in fade-in-delay-1">
+            Tushar<br />
+            <span class="gradient-text">Solanki</span>
+          </h1>
+          <p class="hero-title fade-in fade-in-delay-2">Full Stack Software Engineer · 4 Years Experience</p>
+          <div class="hero-typed-wrapper fade-in fade-in-delay-2">
+            <span id="hero-typed"></span><span class="cursor-blink"></span>
+          </div>
+          <p class="hero-bio fade-in fade-in-delay-3">
+            Building scalable enterprise web applications using <strong>Node.js</strong>, <strong>React.js</strong>,
+            <strong>TypeScript</strong>, and <strong>MySQL</strong>. Passionate about clean code, RESTful API design,
+            and leveraging AI-assisted development to ship features faster.
+          </p>
+          <div class="hero-actions fade-in fade-in-delay-3">
+            <a href="#projects" class="btn-primary" id="hero-view-work">
+              <span>View My Work</span>
+              <span>→</span>
+            </a>
+            <a href="Tushar_Solanki_Full_Stack_Developer_Resume.pdf" download="Tushar_Solanki_Full_Stack_Developer_Resume.pdf" target="_blank" rel="noopener noreferrer" class="btn-secondary" id="hero-download-cv">
+              <span>⬇</span>
+              <span>Download CV</span>
+            </a>
+            <a href="#contact" class="btn-secondary" id="hero-contact">
+              <span>✉</span>
+              <span>Contact Me</span>
+            </a>
+          </div>
+          <div class="hero-stats fade-in fade-in-delay-4">
+            <div class="stat-item">
+              <span class="stat-number" id="stat-years">4+</span>
+              <span class="stat-label">Years Exp.</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" id="stat-skills">15+</span>
+              <span class="stat-label">Technologies</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" id="stat-opt">50×</span>
+              <span class="stat-label">Query Speed-up</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number" id="stat-remote">🌍</span>
+              <span class="stat-label">Remote Ready</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-photo-wrapper fade-in fade-in-delay-2">
+          <div class="hero-photo-ring"></div>
+          <div class="otw-ring"></div>
+          <img src="ts_image.jpg" alt="Tushar Solanki — Full Stack Developer" class="hero-photo" id="hero-photo"
+            loading="eager" />
+          <div class="otw-badge">#OpenToWork</div>
+          <div class="hero-photo-badge">💻 Full Stack Dev</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section" aria-label="About Tushar Solanki">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-info fade-in">
+          <span class="section-badge">👋 About Me</span>
+          <h2 class="section-title">Engineering Software That <span class="gradient-text">Scales</span></h2>
+          <p class="about-text">
+            I'm a Full Stack Software Engineer with <strong>4 years of hands-on experience</strong> building
+            enterprise-grade web applications. I specialize in crafting secure RESTful APIs, scalable backend services,
+            and responsive frontend applications — and I'm fully open to <strong>remote work</strong> or
+            <strong>relocation</strong> anywhere.
+          </p>
+          <p class="about-text">
+            Currently at <strong>Softude by Systematix</strong>, I've worked on business-critical systems handling
+            complex workflows, case management, approval pipelines, and data-driven reporting modules. I actively
+            leverage <strong>AI-assisted development tools</strong> to accelerate debugging, documentation, and feature
+            delivery.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <span class="highlight-icon">⚡</span>
+              <span class="highlight-text"><strong>Performance focused</strong> — Reduced SQL report execution from 5
+                min → 10 sec via query optimization &amp; stored procedures</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">🔐</span>
+              <span class="highlight-text"><strong>Security-first APIs</strong> — JWT authentication, secure RESTful
+                architecture across enterprise modules</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">🤖</span>
+              <span class="highlight-text"><strong>AI-powered workflow</strong> — ChatGPT, Claude, Cursor, Gemini for
+                productivity, code quality &amp; faster delivery</span>
+            </div>
+            <div class="highlight-item">
+              <span class="highlight-icon">🌍</span>
+              <span class="highlight-text"><strong>Cross-functional collaboration</strong> — Worked with clients, QA,
+                and teams through full SDLC &amp; Agile sprints</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-cards fade-in fade-in-delay-2">
+          <div class="info-card">
+            <div class="info-card-icon">🗓️</div>
+            <div class="info-card-number">4+</div>
+            <div class="info-card-label">Years of Experience</div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">🚀</div>
+            <div class="info-card-number">Agile</div>
+            <div class="info-card-label">Scrum / Sprints</div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">⚙️</div>
+            <div class="info-card-number">15+</div>
+            <div class="info-card-label">Technologies Mastered</div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">☁️</div>
+            <div class="info-card-number">GCP</div>
+            <div class="info-card-label">Cloud Platform</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="section" aria-label="Technical skills">
+    <div class="container">
+      <div class="fade-in" style="margin-bottom: 48px;">
+        <span class="section-badge">🛠 Tech Stack</span>
+        <h2 class="section-title">Skills &amp; <span class="gradient-text">Technologies</span></h2>
+        <p class="section-subtitle">A curated set of tools and technologies I use to build robust, scalable
+          applications.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-category fade-in">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">💻</div>
+            <span class="skill-category-title">Languages</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">JavaScript (ES6+)</span>
+            <span class="skill-tag">TypeScript</span>
+            <span class="skill-tag">SQL</span>
+          </div>
+        </div>
+        <div class="skill-category fade-in fade-in-delay-1">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">⚛️</div>
+            <span class="skill-category-title">Frontend</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">React.js</span>
+            <span class="skill-tag">Next.js</span>
+            <span class="skill-tag">Redux</span>
+            <span class="skill-tag">React Router</span>
+            <span class="skill-tag">Context API</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">Material UI</span>
+            <span class="skill-tag">Bootstrap</span>
+          </div>
+        </div>
+        <div class="skill-category fade-in fade-in-delay-2">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">🔧</div>
+            <span class="skill-category-title">Backend</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Express.js</span>
+            <span class="skill-tag">RESTful APIs</span>
+            <span class="skill-tag">JWT Authentication</span>
+          </div>
+        </div>
+        <div class="skill-category fade-in fade-in-delay-1">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">🗄️</div>
+            <span class="skill-category-title">Databases</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">MongoDB</span>
+          </div>
+        </div>
+        <div class="skill-category fade-in fade-in-delay-2">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">🧰</div>
+            <span class="skill-category-title">Developer Tools</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Postman</span>
+            <span class="skill-tag">npm</span>
+            <span class="skill-tag">Webpack</span>
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">CI/CD</span>
+          </div>
+        </div>
+        <div class="skill-category fade-in fade-in-delay-3">
+          <div class="skill-category-header">
+            <div class="skill-category-icon">🤖</div>
+            <span class="skill-category-title">AI Tools &amp; Cloud</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">ChatGPT</span>
+            <span class="skill-tag">Claude</span>
+            <span class="skill-tag">Cursor</span>
+            <span class="skill-tag">Gemini</span>
+            <span class="skill-tag">GCP</span>
+            <span class="skill-tag">AWS</span>
+            <span class="skill-tag">Agile / Scrum</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience" class="section" aria-label="Work experience">
+    <div class="container">
+      <div class="fade-in" style="margin-bottom: 32px;">
+        <span class="section-badge">💼 Work History</span>
+        <h2 class="section-title">Professional <span class="gradient-text">Experience</span></h2>
+        <p class="section-subtitle">Enterprise-scale impact across case management, logistics, and fitness platforms.
+        </p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item fade-in">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-header">
+              <span class="timeline-company">Softude by Systematix</span>
+              <span class="timeline-date">Sep 2022 – Present</span>
+            </div>
+            <div class="timeline-role">Software Engineer</div>
+            <div class="timeline-location">📍 Indore, India</div>
+
+            <div class="project-block">
+              <div class="project-label">▸ Project: Eicher Case Management System</div>
+              <ul>
+                <li>Developed and enhanced enterprise web applications using Node.js, Express.js, React.js, TypeScript,
+                  and MySQL, delivering scalable backend services and responsive frontend solutions for
+                  business-critical workflows.</li>
+                <li>Designed and integrated RESTful APIs for case management, approval workflows, authentication,
+                  reporting, and file processing across multiple business modules.</li>
+                <li>Built responsive React.js interfaces using React Hooks, Context API, React Router, Material UI, and
+                  reusable components.</li>
+                <li>Optimized complex MySQL queries and stored procedures — reducing critical report execution time from
+                  <strong>~5 minutes to 10 seconds</strong> through query optimization, indexing, and stored procedure
+                  improvements.</li>
+                <li>Collaborated with clients, QA, and cross-functional teams for requirement gathering, production
+                  support, and Git-based deployments.</li>
+                <li>Leveraged AI-assisted development tools to accelerate debugging, implementation, documentation, and
+                  code reviews.</li>
+              </ul>
+            </div>
+
+            <div class="project-block">
+              <div class="project-label">▸ Project: Drewry Portal</div>
+              <ul>
+                <li>Developed enterprise web modules using React.js and Node.js, integrating secure RESTful APIs,
+                  reusable UI components, and responsive interfaces for business applications.</li>
+                <li>Built backend services using Node.js, Express.js, MySQL, and PostgreSQL, integrating secure data
+                  management, authentication, reporting, and cross-application data exchange for business workflows.
+                </li>
+              </ul>
+            </div>
+
+            <div class="project-block">
+              <div class="project-label">▸ Project: StepUp – Fitness Tracking Platform</div>
+              <ul>
+                <li>Developed a full-stack fitness platform with secure RESTful APIs, JWT authentication, reusable React
+                  components, and responsive UIs using MySQL and MongoDB.</li>
+                <li>Designed backend services using Node.js and Express.js while building responsive frontend modules
+                  with Next.js, React.js, TypeScript, Redux, React Hooks, and Material UI for API-driven applications.
+                </li>
+                <li>Worked with Google Cloud Platform (GCP), Git-based workflows, and AI-assisted development tools
+                  during full-stack application development.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="section" aria-label="Featured projects">
+    <div class="container">
+      <div class="fade-in" style="margin-bottom: 48px;">
+        <span class="section-badge">🚀 Portfolio</span>
+        <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+        <p class="section-subtitle">Enterprise and full-stack applications built with modern technologies.</p>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card fade-in">
+          <div class="project-card-header">
+            <div class="project-icon">🏢</div>
+          </div>
+          <h3 class="project-name">Eicher Case Management System</h3>
+          <p class="project-desc">
+            Enterprise-level case management platform built for Eicher Motors. Features approval workflows,
+            authentication pipelines, file processing, and comprehensive reporting modules. Reduced critical query
+            execution time by 30× through deep MySQL optimization.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Node.js</span>
+            <span class="project-tag">Express.js</span>
+            <span class="project-tag">React.js</span>
+            <span class="project-tag">TypeScript</span>
+            <span class="project-tag">MySQL</span>
+            <span class="project-tag">Material UI</span>
+            <span class="project-tag">REST APIs</span>
+            <span class="project-tag">JWT</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Tushar1012" target="_blank" rel="noopener noreferrer" class="project-link"
+              id="proj-eicher-github">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.43 9.8 8.2 11.37.6.1.83-.26.83-.57v-2c-3.33.73-4.03-1.6-4.03-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.23 1.84 1.23 1.07 1.84 2.8 1.3 3.49 1 .1-.78.42-1.3.76-1.6-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.65 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.69.83.57C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
+              </svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card fade-in fade-in-delay-1">
+          <div class="project-card-header">
+            <div class="project-icon">🚢</div>
+          </div>
+          <h3 class="project-name">Drewry Portal</h3>
+          <p class="project-desc">
+            Business web portal for Drewry — a global maritime research &amp; consultancy firm. Built with React.js and
+            Node.js, featuring secure REST APIs, data management pipelines, cross-application data exchange, and
+            reporting workflows backed by MySQL and PostgreSQL.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">React.js</span>
+            <span class="project-tag">Node.js</span>
+            <span class="project-tag">Express.js</span>
+            <span class="project-tag">MySQL</span>
+            <span class="project-tag">PostgreSQL</span>
+            <span class="project-tag">REST APIs</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Tushar1012" target="_blank" rel="noopener noreferrer" class="project-link"
+              id="proj-drewry-github">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.43 9.8 8.2 11.37.6.1.83-.26.83-.57v-2c-3.33.73-4.03-1.6-4.03-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.23 1.84 1.23 1.07 1.84 2.8 1.3 3.49 1 .1-.78.42-1.3.76-1.6-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.65 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.69.83.57C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
+              </svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card fade-in fade-in-delay-2">
+          <div class="project-card-header">
+            <div class="project-icon">💪</div>
+          </div>
+          <h3 class="project-name">StepUp — Fitness Tracking Platform</h3>
+          <p class="project-desc">
+            Full-stack fitness tracking application with secure JWT-based authentication, Next.js frontend, and RESTful
+            API backend. Includes Redux state management, GCP infrastructure, and AI-assisted development workflow.
+            Supports both MySQL and MongoDB data layers.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Next.js</span>
+            <span class="project-tag">React.js</span>
+            <span class="project-tag">TypeScript</span>
+            <span class="project-tag">Redux</span>
+            <span class="project-tag">Node.js</span>
+            <span class="project-tag">MongoDB</span>
+            <span class="project-tag">MySQL</span>
+            <span class="project-tag">GCP</span>
+            <span class="project-tag">JWT</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/Tushar1012" target="_blank" rel="noopener noreferrer" class="project-link"
+              id="proj-stepup-github">
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.43 9.8 8.2 11.37.6.1.83-.26.83-.57v-2c-3.33.73-4.03-1.6-4.03-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.23 1.84 1.23 1.07 1.84 2.8 1.3 3.49 1 .1-.78.42-1.3.76-1.6-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.65 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.69.83.57C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z" />
+              </svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section id="education" class="section" aria-label="Education">
+    <div class="container">
+      <div class="fade-in" style="margin-bottom: 48px;">
+        <span class="section-badge">🎓 Education</span>
+        <h2 class="section-title">Academic <span class="gradient-text">Background</span></h2>
+      </div>
+      <div class="education-card fade-in">
+        <div class="edu-icon">🏛️</div>
+        <div>
+          <div class="edu-degree">Bachelor of Technology (B.Tech) in Computer Science Engineering</div>
+          <div class="edu-college">Astral Institute of Technology &amp; Research, Indore</div>
+          <div class="edu-details">
+            <span>📅 June 2018 – May 2022</span>
+            <span>📍 Indore, Madhya Pradesh</span>
+            <span>🎯 Computer Science Engineering</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ HOW I CAN HELP ============ -->
+  <section id="help" class="section" aria-label="How I can help">
+    <div class="container">
+      <div class="fade-in" style="margin-bottom: 32px;">
+        <span class="section-badge">🤝 Hire Me</span>
+        <h2 class="section-title">How I Can <span class="gradient-text">Help You</span></h2>
+        <p class="section-subtitle">Click any card below to send me a direct message — I respond within 24 hours.</p>
+      </div>
+      <div class="help-grid">
+
+        <a href="mailto:Tusharsolanki1020@gmail.com?subject=Inquiry: Full Stack Web Application Development&body=Hi Tushar,%0A%0AI came across your portfolio and I'm interested in your Full Stack development skills (React + Node.js).%0A%0ALet's connect to discuss my requirements!%0A%0ABest regards,"
+          class="help-card fade-in" id="help-fullstack">
+          <div class="help-card-icon">💻</div>
+          <div class="help-card-title">Full Stack Web Applications</div>
+          <div class="help-card-desc">End-to-end development of enterprise-grade web portals using React.js, Next.js, Node.js, Express.js and MySQL/PostgreSQL. From architecture to deployment.</div>
+          <div class="help-card-cta">✉ Send Inquiry →</div>
+        </a>
+
+        <a href="mailto:Tusharsolanki1020@gmail.com?subject=Inquiry: Backend API & Microservices Development&body=Hi Tushar,%0A%0AI saw your portfolio and need help building scalable REST APIs or backend services.%0A%0ALet's connect!%0A%0ABest regards,"
+          class="help-card fade-in fade-in-delay-1" id="help-backend">
+          <div class="help-card-icon">🔧</div>
+          <div class="help-card-title">Backend APIs & Microservices</div>
+          <div class="help-card-desc">Designing and building secure RESTful APIs with JWT authentication, role-based access control, and optimized database queries. Proven 50× performance improvements on complex MySQL workloads.</div>
+          <div class="help-card-cta">✉ Send Inquiry →</div>
+        </a>
+
+        <a href="mailto:Tusharsolanki1020@gmail.com?subject=Inquiry: React Frontend / UI Development&body=Hi Tushar,%0A%0AI need help building a responsive React or Next.js frontend application.%0A%0ALet's talk!%0A%0ABest regards,"
+          class="help-card fade-in fade-in-delay-2" id="help-frontend">
+          <div class="help-card-icon">⚛️</div>
+          <div class="help-card-title">React & Next.js Frontend</div>
+          <div class="help-card-desc">Building responsive, accessible UI with React.js, Next.js, TypeScript, Redux, and Material UI. Reusable component libraries, Context API, and smooth UX patterns.</div>
+          <div class="help-card-cta">✉ Send Inquiry →</div>
+        </a>
+
+        <a href="mailto:Tusharsolanki1020@gmail.com?subject=Inquiry: Database Design & Query Optimization&body=Hi Tushar,%0A%0AI need help with database schema design or query performance optimization.%0A%0ALet's connect!%0A%0ABest regards,"
+          class="help-card fade-in fade-in-delay-3" id="help-database">
+          <div class="help-card-icon">🗄️</div>
+          <div class="help-card-title">Database Design & Optimization</div>
+          <div class="help-card-desc">MySQL, PostgreSQL, and MongoDB — from schema design and indexing to stored procedures and query tuning. Reduced report execution from 5 minutes to 10 seconds at enterprise scale.</div>
+          <div class="help-card-cta">✉ Send Inquiry →</div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section" aria-label="Contact">
+    <div class="container">
+      <div class="fade-in" style="margin-bottom: 56px;">
+        <span class="section-badge">✉ Get In Touch</span>
+        <h2 class="section-title">Let's <span class="gradient-text">Work Together</span></h2>
+        <p class="section-subtitle">Whether you have a role to fill, a project to build, or just want to connect — I'd
+          love to hear from you.</p>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-info fade-in">
+          <p class="contact-text">
+            I'm currently <strong>open to new full-time opportunities</strong> as a Full Stack or Backend Engineer. If
+            you're building something great and think I'd be a fit, reach out via email or LinkedIn. I respond within 24
+            hours.
+          </p>
+          <div class="contact-items">
+            <a href="mailto:Tusharsolanki1020@gmail.com" class="contact-item" id="contact-email">
+              <span class="contact-item-icon">📧</span>
+              <span class="contact-item-text">Tusharsolanki1020@gmail.com</span>
+            </a>
+            <a href="tel:+918349228889" class="contact-item" id="contact-phone">
+              <span class="contact-item-icon">📱</span>
+              <span class="contact-item-text">+91 83492 28889</span>
+            </a>
+            <a href="https://linkedin.com/in/tushar-solanki1011" target="_blank" rel="noopener noreferrer"
+              class="contact-item" id="contact-linkedin">
+              <span class="contact-item-icon">💼</span>
+              <span class="contact-item-text">linkedin.com/in/tushar-solanki1011</span>
+            </a>
+            <a href="https://github.com/Tushar1012" target="_blank" rel="noopener noreferrer" class="contact-item"
+              id="contact-github">
+              <span class="contact-item-icon">🐙</span>
+              <span class="contact-item-text">github.com/Tushar1012</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Open-to-work card -->
+        <div class="contact-card fade-in fade-in-delay-2">
+          <div class="contact-card-title">🎯 Open to Opportunities</div>
+          <div class="contact-card-sub">Currently exploring full-time roles — Remote, Hybrid, or Relocate.</div>
+          <div class="open-roles">
+            <div class="role-item">
+              <span class="role-dot"></span>
+              Full Stack Engineer (Node.js + React)
+            </div>
+            <div class="role-item">
+              <span class="role-dot"></span>
+              Backend Engineer (Node.js / Express)
+            </div>
+            <div class="role-item">
+              <span class="role-dot"></span>
+              Frontend Engineer (React.js / Next.js)
+            </div>
+            <div class="role-item">
+              <span class="role-dot"></span>
+              Software Engineer (MERN / TypeScript)
+            </div>
+          </div>
+          <a href="mailto:Tusharsolanki1020@gmail.com?subject=Opportunity for Tushar Solanki&body=Hi Tushar, I came across your portfolio and would love to connect."
+            class="contact-cta-btn" id="contact-hire-btn">
+            ✉ Send Me a Message
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-socials">
+        <a href="https://github.com/Tushar1012" target="_blank" rel="noopener noreferrer" class="footer-social-link" title="GitHub" id="footer-github">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.43 9.8 8.2 11.37.6.1.83-.26.83-.57v-2c-3.33.73-4.03-1.6-4.03-1.6-.55-1.4-1.34-1.77-1.34-1.77-1.09-.74.08-.73.08-.73 1.2.08 1.84 1.23 1.84 1.23 1.07 1.84 2.8 1.3 3.49 1 .1-.78.42-1.3.76-1.6-2.66-.3-5.46-1.33-5.46-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.28-1.55 3.29-1.23 3.29-1.23.65 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.8 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.69.83.57C20.57 21.8 24 17.3 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+        <a href="https://linkedin.com/in/tushar-solanki1011" target="_blank" rel="noopener noreferrer" class="footer-social-link" title="LinkedIn" id="footer-linkedin">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29zM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45C23.21 24 24 23.23 24 22.27V1.73C24 .77 23.21 0 22.22 0z"/></svg>
+        </a>
+        <a href="mailto:Tusharsolanki1020@gmail.com" class="footer-social-link" title="Email" id="footer-email-link">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        </a>
+      </div>
+      <p class="footer-text">
+        Designed &amp; Built with <span class="footer-heart">❤</span> by <strong>Tushar Solanki</strong> &nbsp;·&nbsp;
+        <span id="footer-year">2025</span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+
+  <!-- ============ SCRIPT ============ -->
+  <script src="script.js"></script>
+</body>
+
+</html>
